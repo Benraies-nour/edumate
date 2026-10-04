@@ -1,0 +1,21 @@
+# Environnements virtuels
+venv/
+.venv/
+
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Logs et caches
+*.log
+.cache/
+
+# Données locales
+data/
+inputs/
