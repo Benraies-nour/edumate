@@ -1,8 +1,4 @@
-"""Configuration centralisée d'EduMate.
 
-Chaque paramètre est lu dans cet ordre : variable d'environnement (ou .env),
-puis secrets Streamlit (déploiement Streamlit Cloud), puis valeur par défaut.
-"""
 import os
 from pathlib import Path
 
